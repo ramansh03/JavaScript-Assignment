@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:lightskyblue;
+}
+
+.wrapper{
+    background-color: #fff;
+    width: 400px;
+    background: #fff;
+    border: 2px solid black;
+}
+
+.wrapper header{
+    font-weight: bolder;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    color: lightskyblue;
+    padding: 20px 15px;
+    background-color: beige;
+    border-bottom: 2px solid black;
+}
+
+.wrapper .input{
+    margin: 20px 25px 30px;
+}
+.input .input_text{
+    text-align: center;
+    font-size: 17px;
+    background-color: darkseagreen;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.input :where(input,button){
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.input input{
+    border: 1px solid #bfbfbf;
+}
+
+.input .seperator{
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input button{
+    color: #fff;
+    cursor: pointer;
+    background-color: lightskyblue;
+}
+
+.card{
+    width: 100%;
+    height: 15vh;
+    margin: 50px auto;
+    display: inline;
+  }
+  
+  
+  .card h1{
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:20px 0;
+    font-size:20px;
+  }
+

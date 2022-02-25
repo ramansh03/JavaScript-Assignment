@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking BoxIcon for Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Weather App</header>
+        <section class="input">
+            <p class="input_text">Please Enter a city name</p>
+            <input type="text" placeholder="Enter City Name" spellcheck="false" class="text">
+            <div class="seperator"></div>
+            <input type="submit" value="Submit" class="submit">
+        </section>
+
+        <div class="card">
+            <h1 class="name" id="name"></h1>
+            <p class="temp"></p>
+            <p class="clouds"></p>
+          </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
